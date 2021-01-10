@@ -1,27 +1,41 @@
 # ProxyTools
 Collection of agent tools, regularly updated automatically.
 
-名称 | 仓库路径 | 平台 | 同步源 | 备注
--|-|-|-|-
-v2ray-core | .\v2ray-core | Linux | [Source](https://github.com/v2fly/v2ray-core) | -
-v2rayW | .\v2-tools\v2rayW | Windows | [Source](https://github.com/Cenmrev/V2RayW/releases) | 似乎已完善，作者已很久未更新
-Netch | .\Netch | Windows | [Source](https://github.com/NetchX/Netch/releases) | -
-Clash | .\Clash | Windows | [Source](https://github.com/Fndroid/clash_for_windows_pkg/releases) | -
-SSTap | .\SSTap | Windows | [Source](https://github.com/solikethis/SSTap-backup) | 同步源非官方，作者已弃坑
-v2rayN | .\v2-tools\v2rayN | Windows | [Source](https://github.com/2dust/v2rayN/releases) | -
-ShadowsocksR Windows | .\ssr-tools\ssr-windows | Windows | [Source](https://github.com/shadowsocksr-backup/shadowsocksr-csharp/releases) | 第三方备份，自判安全性
-Shadowsocks Windows | .\ss-tools\ss-win | Windows | [Source](https://github.com/shadowsocks/shadowsocks-windows/releases) | -
-v2rayNG | .\v2-tools\v2rayNG | Android | [Source](https://github.com/2dust/v2rayNG/releases) | -
-Clash for Android | .\ClashForAndroid | Android | [Source](https://github.com/Kr328/ClashForAndroid/releases) | -
-ShadowsocksR Android | .\ssr-tools\ssr-android | Android | [Source](https://github.com/shadowsocksr-backup/shadowsocksr-android/releases) | 第三方备份，自判安全性
-Shadowsocks | .\ss-tools\ss-android | Android | [Source](https://github.com/shadowsocks/shadowsocks-android/releases) | -
-ShadowsocksD Android | .\ss-tools\ssd-android | Android | [Source](https://github.com/Tooruchan/SSD-Android) | 作者已很久未更新
-ClashX | .\ClashX | MacOSX | [Source](https://github.com/yichengchen/clashX/releases) | -
-Shadowsocks Mac | .\ss-tools\ssX-ng | MacOSX | [Source](https://github.com/shadowsocks/ShadowsocksX-NG/releases) | 互联网搜集而来，请自判安全性
-v2rayU | .\v2-tools\v2rayU | MacOSX | [Source](https://github.com/yanue/V2rayU/releases) | 作者已很久未更新
-Potatso Lite | .\Potatso | IOS | - | [AppStote](https://apps.apple.com/hk/app/potatso-lite/id1239860606) 互联网搜集而来，请自判安全性
-ShadowRocket | .\ShadowRocket | IOS | - | [AppStore](https://apps.apple.com/us/app/shadowrocket/id932747118) 互联网搜集而来，请自判安全性
-Shadowsocks iOS | .\ss-tools\ss-ios | IOS | [Source](https://github.com/shadowsocks/shadowsocks-iOS/releases) | -
+名称 | 仓库路径 | 平台 | 来源
+-|-|-|-
+v2ray-core | .\v2ray-core | Linux | [Release](https://github.com/v2fly/v2ray-core)
+v2rayW | .\v2-tools\v2rayW | Windows | [Release](https://github.com/Cenmrev/V2RayW)
+Netch | .\Netch | Windows | [Release](https://github.com/NetchX/Netch)
+Clash | .\Clash | Windows | [Release](https://github.com/Fndroid/clash_for_windows_pkg)
+SSTap | .\SSTap | Windows | [Repo](https://github.com/solikethis/SSTap-backup)
+v2rayN | .\v2-tools\v2rayN | Windows | [Release](https://github.com/2dust/v2rayN)
+ShadowsocksR Windows | .\ssr-tools\ssr-windows | Windows | [Release](https://github.com/shadowsocksr-backup/shadowsocksr-csharp)
+Shadowsocks Windows | .\ss-tools\ss-win | Windows | [Release](https://github.com/shadowsocks/shadowsocks-windows)
+v2rayNG | .\v2-tools\v2rayNG | Android | [Release](https://github.com/2dust/v2rayNG)
+Clash for Android | .\ClashForAndroid | Android | [Release](https://github.com/Kr328/ClashForAndroid)
+ShadowsocksR Android | .\ssr-tools\ssr-android | Android | [Release](https://github.com/shadowsocksr-backup/shadowsocksr-android)
+Shadowsocks | .\ss-tools\ss-android | Android | [Release](https://github.com/shadowsocks/shadowsocks-android)
+ShadowsocksD Android | .\ss-tools\ssd-android | Android | [Release](https://github.com/Tooruchan/SSD-Android)
+ClashX | .\ClashX | MacOSX | [Release](https://github.com/yichengchen/clashX)
+ShadowsocksX NG | .\ss-tools\ssX-ng | MacOSX | [Release](https://github.com/shadowsocks/ShadowsocksX-NG)
+v2rayU | .\v2-tools\v2rayU | MacOSX | [Release](https://github.com/yanue/V2rayU)
+Shadowsocks IOS | .\ss-tools\ss-ios | MacOSX | [Release](https://github.com/shadowsocks/shadowsocks-iOS)
+Potatso Lite | .\Potatso | IOS | [AppStote](https://apps.apple.com/hk/app/potatso-lite/id1239860606)
+ShadowRocket | .\ShadowRocket | IOS | [AppStore](https://apps.apple.com/us/app/shadowrocket/id932747118)
 
 # 对华政策
-对天朝人民实施特殊优待政策，[**>>HK节点快速下载**](http://cdisk.amd.rocks/?dir=ProxyTools)
+CHINA专用源，[**>>HK节点快速下载**](http://cdisk.amd.rocks/?dir=ProxyTools)
+
+# 同步信息
+**停止更新**
+
+ShadowsocksR Windows | SSTap
+-|-
+ShadowsocksR Android | ShadowsocksD Android
+v2rayU | Shadowrocket
+Shadowsocks IOS | Potatso Lite
+
+其余资源每6小时轮询一次Release信息，若存在新版本则更新。China源为主动与本仓库同步，4小时一次。
+
+# 说明
+本仓库所有资源均来自于互联网（具体可在上表“来源”项查看）有少数为第三方备份或Repo内共享，请自行判断安全性！
