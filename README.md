@@ -36,6 +36,7 @@ v2rayU | Shadowrocket
 Shadowsocks IOS | Potatso Lite
 
 其余资源每6小时轮询一次Release信息，若存在新版本则更新。China源为主动与本仓库同步，4小时一次。
+status: closed
 
 # 说明
 本仓库所有资源均来自于互联网（具体可在上表“来源”项查看）有少数为第三方备份或Repo内共享，请自行判断安全性！
