@@ -3,7 +3,8 @@ Collection of agent tools, regularly updated automatically.
 
 名称 | 仓库路径 | 平台 | 同步方式 | 来源
 -|-|-|-|-
-v2ray-core | .\v2ray-core | Linux | 自动 |[Release](https://github.com/v2fly/v2ray-core)
+v2ray-core | .\v2ray-core | ALL | 自动 |[Release](https://github.com/v2fly/v2ray-core)
+Xray-core | .\Xray-core | ALL | 自动 | [Release](https://github.com/XTLS/Xray-core)
 v2rayW | .\v2-tools\v2rayW | Windows | 自动 |[Release](https://github.com/Cenmrev/V2RayW)
 Netch | .\Netch | Windows | 自动 | [Release](https://github.com/NetchX/Netch)
 Clash | .\Clash | Windows | 自动 | [Release](https://github.com/Fndroid/clash_for_windows_pkg)
